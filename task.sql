@@ -131,3 +131,8 @@ INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct59'); 
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct60'); 
+
+-- Slow query log analysis results:
+-- Products1 average query time: 0.0017356 seconds.
+-- Products2 average query time: 0.00178122 seconds.
+-- Products2 was slower, so its CREATE TABLE and INSERT statements were removed.
